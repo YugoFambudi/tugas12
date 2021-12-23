@@ -1,17 +1,3 @@
-# <p align="center"> **Tugas Praktikum 11**
-
-#  ***PRAKTIKUM***
-
-Buat program sederhna dengan mengaplikasikan penggunaan class. Buatlah class untuk menampilkan daftar nilai mahasiswa, dengan ketentuan:
-1. Method **tambah()** untuk menambah data
-2. Method **tampilkan()** untuk menampilkan data
-3. Method **hapus(nama)** untuk menghapus data berdasarkan nama
-4. Method **ubah(nama)** untuk mengubah data berdasar nama
-5. Buat diagram class, flowchart dan penjelasan programnya pada README.md.
-6. Commit dan push repository ke github.
-
-# Program
-```py
 print('program menambah data dengan class')
 data ={}
 class nilai():
@@ -60,7 +46,7 @@ class nilai():
         else:
             print('\ndata tidak ditemukan !')
     def keluar(self):
-        print('\nterimakasih\n')
+        print('\nterimakasih\nYugoRiloFambudi')
 while True:
     d=nilai()
     print('\nmenambah data\t\t(1)\nmengubah data\t\t(2)\nmenghapus data\t\t(3)\nmenampilkan data\t(4)')
@@ -76,38 +62,3 @@ while True:
     else:
         d.keluar()
         break
-```
-
-# ***Output Program***
-Output Tambah Data
-
-![.](images/1.png)
-
-Output Tambah Data
-
-![.](images/1`.png)
-
-Output Mengubah Data
-
-![.](images/2.png)
-
-Output Menghapus Data
-
-![.](images/3.png)
-
-Output Menampilkan Data
-
-![.](images/4.png)
-
-Output Ketika Memilih Else
-
-![.](images/6.png)
-
-
-# **Diagram Class**
-
-![.](images/diagramclass.png)
-
-# **Flowchart**
-
-![.](images/flowchart.png)
